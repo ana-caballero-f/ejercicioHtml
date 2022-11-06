@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulario</h2>    
+
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre" required>Nombre:</label>
+                <input type="text" id="nombre" placeholder="Introduce tu nombre">
+
+                <label for="apellidos" required>Apellidos:</label>
+                <input type="text" id="apellidos" placeholder="Introduce tus apellidos">
+
+                <label for="email" required>email:</label>
+                <input type="email" id="email" placeholder="Introduce tu email">
+            </fieldset>
+
+            <fieldset>
+                <legend>¿Cuál es tu nivel de inglés?
+                <select>
+                    <option value="elige">Elige tu nivel</option>
+                    <option value="ninguno">Ninguno</option>
+                    <option value="A">A2</option>
+                    <option value="b1">b1</option>
+                    <option value="b2">b2</option>
+                    <option value="c1">c1</option>
+                    </option>
+                </select>
+                </legend>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿Tienes conocimientos previos?</legend>
+                <label for="si">Sí</label>
+                <input id="si" name="conocimientos" type="radio">
+
+                <label for="no">No</label>
+                <input id="no" name="conocimientos" type="radio">
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En qué estás más interesado?</legend>
+                <label for="html">html</label>
+                <input id="html" name="intereses" type="checkbox">
+                <label for="CSS">CSS</label>
+                <input id="CSS" name="intereses" type="checkbox">
+                <label for="javascript">Javascript</label>
+                <input id="javascript" name="intereses" type="checkbox">
+            </fieldset>
+    </form>
+    
+</body>
+</html>
